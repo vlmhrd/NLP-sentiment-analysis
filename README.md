@@ -1,7 +1,7 @@
 # NLP-sentiment-analysis
 
 # Goal
-The primary goal of this project is to build and evaluate a machine learning model that can classify text data into multiple sentiment categories (positive, neutral, and negative) using natural language processing (NLP) techniques.
+The primary goal of this project is to build and evaluate a machine learning model that can classify text data into multiple sentiment categories (positive, neutral, and negative) using natural language processing (NLP) techniques. Dataset taken from [HuggingFace](https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset).
 
 # Description
 This project implements a multiclass sentiment analysis pipeline using Python and PyTorch. The workflow begins by loading a labeled dataset from Hugging Face, which contains text samples and their corresponding sentiment labels. The data is preprocessed by tokenizing the text, building a vocabulary of the most common words, encoding and padding the sequences, and preparing PyTorch tensors and data loaders for efficient batch processing.
@@ -10,10 +10,10 @@ A simple neural network model with an embedding layer is defined and trained to 
 
 # Tools & Libraries
 
-Python: Primary programming language.
-Jupyter Notebook: Interactive environment for code, visualization, and explanation.
-NumPy & Pandas: Data manipulation and analysis.
-PyTorch: Model definition, training, and evaluation.
-Torchtext/DataLoader: Efficient batch processing of text data.
-Scikit-learn: Calculation of classification metrics and confusion matrix.
-Hugging Face Datasets: Source for the labeled multiclass sentiment dataset.
+- Python: Primary programming language.
+- Jupyter Notebook: Interactive environment for code, visualization, and explanation.
+- NumPy & Pandas: Data manipulation and analysis.
+- PyTorch: Model definition, training, and evaluation.
+- Torchtext/DataLoader: Efficient batch processing of text data.
+- Scikit-learn: Calculation of classification metrics and confusion matrix.
+- Hugging Face Datasets: Source for the labeled multiclass sentiment dataset.
