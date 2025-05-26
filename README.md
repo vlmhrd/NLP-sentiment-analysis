@@ -1,4 +1,4 @@
-# NLP-sentiment-analysis
+# NLP-sentiment-analysis with Pytorch
 
 # Goal
 The primary goal of this project is to build and evaluate a machine learning model that can classify text data into multiple sentiment categories (positive, neutral, and negative) using natural language processing (NLP) techniques. Dataset taken from [HuggingFace](https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset).
